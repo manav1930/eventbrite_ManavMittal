@@ -1,0 +1,200 @@
+
+<html>
+<head>
+<style>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+.search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+
+
+#myimg{
+height:40px;
+width:40px;
+border-radius:50%;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#123{
+color:green;
+text-transform:bold;
+text-color:purple;
+}
+
+
+</style>
+
+
+
+</head>
+<body>
+<i class="fa fa-heart-o" style="font-size:48px;color:red"></i>
+
+<div class="navbar">
+<table>
+<tr><td>
+
+<img src="file:///C:/Users/shubham/Desktop/eventbrite/download.png"height="40px"width="70px"></img>
+</td>
+ <td><div class="search-container">
+    <form action="/action_page.php">
+<img src="file:///C:/Users/shubham/Desktop/eventbrite/download.jpg"class="searchbutton"height="30px"width="30px"></img>
+  </td><td>    <input type="text" placeholder="Search for events" name="search">
+
+<td>
+
+
+  <a href="#home">Browse Events</a>
+
+  <div class="dropdown">
+    <button class="dropbtn">Host a event
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Keith Barry's Virtual Valentine Branhacking show</a>
+      <a href="#">An evening with Kazuo Ishiguro</a>
+      <a href="#">Valentines Day Virtual Beer Festival</a>
+    </div></div>
+  <img src="file:///C:/Users/shubham/Desktop/eventbrite/4c77624def18571fd09ec187867dfc97.jpg"id="myimg">
+ <div class="dropdown">
+    <button class="dropbtn">Help
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Custom Search Help</a>
+      <a href="#">Gmail Help</a>
+      <a href="#">Google Checkout Help</a>
+    </div>
+  </div> 
+
+  <div class="dropdown">
+    <button class="dropbtn">djnino609@gmail.com
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">jason@domain.tld</a>
+      <a href="#">jsmith@domain.gmail.com</a>
+      <a href="#">smith@domain.ltd</a>
+    </div></div>
+
+</div>
+
+
+</td>
+</tr>
+</table>
+</div>
+</div>
+
+
+<h1 id="123">Likes</h1>
+<table>
+<tr><td>
+<img src="file:///C:/Users/shubham/Desktop/eventbrite/WO-Keith-Barrys-Virtual-Valentines-Brainhacking-Show_1200x600.jpg"height="100px"width="160px">
+</td>
+<td><h3>Keith Barry's Virtual Valentines Brainhacking Show</h3>Mon,Feb 15,2021 2:30 AM IST<br>Starts at 27.55
+<td><p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p></td>
+<td><img src="file:///C:/Users/shubham/Desktop/eventbrite/download%20(2).png"height="20px"width="20px"></td>
+
+<td><img src="file:///C:/Users/shubham/Desktop/eventbrite/download%20(3).png" height="50px"width="60px"></td>
+
+
+
+</td></tr>
+<tr>
+<td>
+<img src="file:///C:/Users/shubham/Desktop/eventbrite/Kazuo-Ishiguro.jpg"height="100px"width="160px"></img>
+</td><td><h3>An evening with Kazuo Ishiguro</h3>Wed,Mar 3,2021 12:30AM IST<br>Starts at 7.81
+</td><td><p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p></td><td><img src="file:///C:/Users/shubham/Desktop/eventbrite/download%20(2).png"height="20px"width="20px">
+<td><img src="file:///C:/Users/shubham/Desktop/eventbrite/download%20(3).png" height="50px"width="60px"></td>
+
+
+</tr>
+<tr><td>
+<img src="file:///C:/Users/shubham/Desktop/eventbrite/maxresdefault.jpg"height="100px"width="160px"></img>
+</td><td><h3>Valentines Day Virtual Beer Festival</h3>Sun,Feb 14 ,2021 9:30 AM IST<br>Starts at 50.00
+</td><td><p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p></td>
+<td><img src="file:///C:/Users/shubham/Desktop/eventbrite/download%20(2).png"height="20px"width="20px"></td>
+<td><img src="file:///C:/Users/shubham/Desktop/eventbrite/download%20(3).png" height="50px"width="60px"></td></tr></table>
+
+
+
+
+</body>
+</html>
